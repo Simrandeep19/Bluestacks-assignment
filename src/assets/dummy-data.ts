@@ -4,7 +4,7 @@ export const dummy ={
       "id":1,
       "name": "Auto Chess",
       "region": "US",
-      "createdOn": 1559807714999,
+      "createdOn": 159828715124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
@@ -14,7 +14,7 @@ export const dummy ={
       "id":2,
       "name": "PUBG Mobile",
       "region": "India",
-      "createdOn": 1559806715124,
+      "createdOn": 159828715124,
       "price": "View Prcing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
@@ -23,7 +23,7 @@ export const dummy ={
     {
       "id":3,
       "name": "Flow Free",
-      "region": "US",
+      "region": "Australia",
       "createdOn": 1559806711124,
       "price": "View Prcing",
       "csv": "Need to check how to implement this functionality",
@@ -33,7 +33,7 @@ export const dummy ={
     {
       "id":4,
       "name": "Garena Free Fire...",
-      "region": "US",
+      "region": "UK",
       "createdOn": 1559806680124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
@@ -41,44 +41,44 @@ export const dummy ={
       "image_url":"./assets/Dashboard/Row Copy 3-Row/Thumb/Bitmap.png"
     },
     {
-      "id":4,
-      "name": "Garena Free Fire...",
-      "region": "US",
+      "id":5,
+      "name": "MORTAL KOMBAT",
+      "region": "Germany",
       "createdOn": 1559806680124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
-      "image_url":"./assets/Dashboard/Row Copy 3-Row/Thumb/Bitmap.png"
+      "image_url":"./assets/Dashboard/Row Copy 4-Row/Thumb/Bitmap.png"
     },
     {
-      "id":4,
-      "name": "Garena Free Fire...",
+      "id":6,
+      "name": "Summoners War",
       "region": "US",
       "createdOn": 1559806680124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
-      "image_url":"./assets/Dashboard/Row Copy 3-Row/Thumb/Bitmap.png"
+      "image_url":"./assets/Dashboard/Row Copy-Row/Thumb/Bitmap.png"
     },
     {
-      "id":4,
-      "name": "Garena Free Fire...",
-      "region": "US",
+      "id":7,
+      "name": "Need For Speed",
+      "region": "India",
       "createdOn": 1559806680124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
-      "image_url":"./assets/Dashboard/Row Copy 3-Row/Thumb/Bitmap.png"
+      "image_url":"./assets/Dashboard/Row Copy 6-Row/Thumb/Bitmap.png"
     },
     {
-      "id":4,
-      "name": "Garena Free Fire...",
-      "region": "US",
+      "id":8,
+      "name": "Shadow Fight-3",
+      "region": "India",
       "createdOn": 1559806680124,
       "price": "View Pricing",
       "csv": "Need to check how to implement this functionality",
       "report": "Need to check how to implement this functionality",
-      "image_url":"./assets/Dashboard/Row Copy 3-Row/Thumb/Bitmap.png"
+      "image_url":"./assets/Dashboard/Row Copy 7-Row/Thumb/Bitmap.png"
     }
   ]
 }

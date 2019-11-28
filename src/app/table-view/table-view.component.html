@@ -6,10 +6,10 @@
     <mat-cell *matCellDef="let element" class="date-cell">
       <!-- <span date-now=new Date()></span> -->
 
-      <!-- <p>
-        {{Date.now()}}
+      <p>
+        <!-- {{Date.now()}} -->
       {{element.createdOn | date:'MMM y, d'}}
-    </p> -->
+    </p>
       <p>
         <i>{{daysLeft(element.createdOn)}}</i>
       </p>
@@ -36,7 +36,7 @@
 
   <!-- Price Column -->
   <ng-container matColumnDef="price">
-    <mat-header-cell *matHeaderCellDef> VIEW PRICING</mat-header-cell>
+    <mat-header-cell *matHeaderCellDef> VIEW </mat-header-cell>
     <mat-cell *matCellDef="let element" class="pricing-cell">
       <img src="./assets/Dashboard/Row/Group 4/Price.png"> {{element.price}} </mat-cell>
   </ng-container>
