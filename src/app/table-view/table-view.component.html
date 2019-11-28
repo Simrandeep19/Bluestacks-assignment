@@ -4,9 +4,12 @@
   <ng-container matColumnDef="createdOn">
     <mat-header-cell *matHeaderCellDef> DATE </mat-header-cell>
     <mat-cell *matCellDef="let element" class="date-cell">
-      <p>
+      <!-- <span date-now=new Date()></span> -->
+
+      <!-- <p>
+        {{Date.now()}}
       {{element.createdOn | date:'MMM y, d'}}
-    </p>
+    </p> -->
       <p>
         <i>{{daysLeft(element.createdOn)}}</i>
       </p>

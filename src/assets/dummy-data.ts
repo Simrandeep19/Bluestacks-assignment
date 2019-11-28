@@ -2,12 +2,12 @@
 export const dummy ={
   "data": [{
       "id":1,
-      "name": "Test Whatsapp",
+      "name": "Auto Chess",
       "region": "US",
       "createdOn": 1559807714999,
-      "price": "Price info of Test Whatsapp",
-      "csv": "Some CSV link for Whatsapp",
-      "report": "Some report link for Whatsapp",
+      "price": "View Pricing",
+      "csv": "Need to check how to implement this functionality",
+      "report": "Need to check how to implement this functionality",
       "image_url":"./assets/Dashboard/Row/Thumb/Bitmap.png"
     },
     {
