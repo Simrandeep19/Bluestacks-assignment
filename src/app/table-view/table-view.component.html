@@ -2,7 +2,7 @@
 <mat-table *ngIf="dataSource.length>0; else noContent"[dataSource]="dataSource" class="mat-elevation-z8 table-style">
   <!-- Position Column -->
   <ng-container matColumnDef="createdOn">
-    <mat-header-cell *matHeaderCellDef> DATE </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef style="color:#07022A" > DATE </mat-header-cell>
     <mat-cell *matCellDef="let element" class="date-cell">
       <!-- <span date-now=new Date()></span> -->
 
@@ -18,7 +18,7 @@
 
   <!-- Name Column -->
   <ng-container matColumnDef="name">
-    <mat-header-cell *matHeaderCellDef> CAMPAIGN </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef style="color:#07022A"> CAMPAIGN </mat-header-cell>
     <mat-cell *matCellDef="let element" class="campaign-details">
       <img [src]="element.image_url">
         <div class="details-container">
@@ -36,27 +36,27 @@
 
   <!-- Price Column -->
   <ng-container matColumnDef="price">
-    <mat-header-cell *matHeaderCellDef> VIEW </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef style="color:#07022A"> VIEW </mat-header-cell>
     <mat-cell *matCellDef="let element" class="pricing-cell">
       <img src="./assets/Dashboard/Row/Group 4/Price.png"> {{element.price}} </mat-cell>
   </ng-container>
 
   <!-- Actions Column -->
   <ng-container matColumnDef="csv">
-    <mat-header-cell *matHeaderCellDef> ACTIONS </mat-header-cell>
+    <mat-header-cell *matHeaderCellDef style="color:#07022A"> ACTIONS </mat-header-cell>
     <mat-cell *matCellDef="let element" class="csv-button"> <button><img src="./assets/Dashboard/Row/Group 3/file.png"> CSV</button></mat-cell>
     
   </ng-container>
   <ng-container matColumnDef="report">
       <mat-header-cell *matHeaderCellDef>  </mat-header-cell>
-    <mat-cell *matCellDef="let element" class="report-button"> <button><img src="./assets/Dashboard/Row/Group 2/statistics-report.png"> Report</button> </mat-cell>
+    <mat-cell *matCellDef="let element" style="color:#07022A" class="report-button"> <button><img src="./assets/Dashboard/Row/Group 2/statistics-report.png"> Report</button> </mat-cell>
   </ng-container>
   <ng-container matColumnDef="image_url">
       <mat-header-cell *matHeaderCellDef>  </mat-header-cell>
     <mat-cell *matCellDef="let element" class="reschedule">
 
       <mat-form-field>
-          <input matInput [matDatepicker]="picker" (dateChange)="reschedule('change', $event, element)" >
+          <input matInput [matDatepicker]="picker" style="color:#07022A"(dateChange)="reschedule('change', $event, element)" >
           <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
           <mat-datepicker #picker></mat-datepicker>
       </mat-form-field> Schedule Again
