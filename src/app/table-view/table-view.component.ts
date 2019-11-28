@@ -32,13 +32,15 @@ export class TableViewComponent implements OnInit,OnChanges {
      // To calculate the no. of days between two dates
      var Difference_In_Days = Math.round(timeDiff / (1000 * 3600 * 24));
 
-     if(Difference_In_Days>0){
-       return `${Math.abs(Difference_In_Days)} Days After`;
+     
+
+     if(Difference_In_Days > 0){
+       return `${Math.abs(Difference_In_Days)+1} days after`;
      }
-     else if(Difference_In_Days<0){
-       return `${Math.abs(Difference_In_Days)} Days Ago`;
+     else if(Difference_In_Days < 0){
+       return `${Math.abs(Difference_In_Days)-1} days ago`;
      }
-     else{
+     else if(Difference_In_Days == 0){
        return `Today`;
            }
   }
