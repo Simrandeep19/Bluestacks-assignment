@@ -33,10 +33,10 @@ export class TableViewComponent implements OnInit,OnChanges {
      var Difference_In_Days = Math.round(timeDiff / (1000 * 3600 * 24));
 
      if(Difference_In_Days>0){
-       return `${Math.abs(Difference_In_Days)} days ahead`;
+       return `${Math.abs(Difference_In_Days)} Days After`;
      }
      else if(Difference_In_Days<0){
-       return `${Math.abs(Difference_In_Days)} days ago`;
+       return `${Math.abs(Difference_In_Days)} Days Ago`;
      }
      else{
        return `Today`;
