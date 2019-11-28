@@ -5,7 +5,7 @@
   header{
     width:100%;
     height:70px;
-    background-color: black;
+    background-color: #07022A;
     padding:0 40px;
     display: flex;
     align-items: center;
@@ -14,16 +14,17 @@
   }
 
   content{
-    padding:20px 40px;
+    padding:20px 240px;
     height: 100%;
     display: block;
+    color:#1E156C;
     h2{
       padding-bottom:20px;
     }
 
     ::ng-deep .mat-tab-label .mat-tab-label-content{
-      font-size:18px;
-      color:black;
+      font-size:14px;
+      color:#07022A;
     }
   }
 }
